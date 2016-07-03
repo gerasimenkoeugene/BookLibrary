@@ -1,0 +1,13 @@
+0:0:0:0:0:0:0:1 - - [09/May/2016:21:51:28 +0300] "GET /BookLibrary/welcome HTTP/1.1" 200 1780 http-bio-8080-exec-1 3350
+0:0:0:0:0:0:0:1 - - [09/May/2016:21:51:28 +0300] "GET /BookLibrary/welcome HTTP/1.1" 200 1780 http-bio-8080-exec-2 3040
+0:0:0:0:0:0:0:1 - - [09/May/2016:21:51:29 +0300] "GET /BookLibrary/resources/css/style_css.css HTTP/1.1" 304 - http-bio-8080-exec-4 105
+0:0:0:0:0:0:0:1 - - [09/May/2016:21:51:29 +0300] "GET /BookLibrary/resources/css/resources/images/Header.jpg HTTP/1.1" 404 1057 http-bio-8080-exec-5 4
+0:0:0:0:0:0:0:1 - - [09/May/2016:21:51:31 +0300] "POST /BookLibrary/registration HTTP/1.1" 405 1047 http-bio-8080-exec-6 12
+0:0:0:0:0:0:0:1 - - [09/May/2016:21:51:33 +0300] "GET /BookLibrary/welcome HTTP/1.1" 200 1780 http-bio-8080-exec-7 8
+0:0:0:0:0:0:0:1 - - [09/May/2016:21:52:50 +0300] "POST /BookLibrary/registration HTTP/1.1" 200 4241 http-bio-8080-exec-1 1824
+0:0:0:0:0:0:0:1 - - [09/May/2016:21:52:56 +0300] "GET /BookLibrary/registration?language=ru_RU HTTP/1.1" 200 2614 http-bio-8080-exec-2 286
+0:0:0:0:0:0:0:1 - - [09/May/2016:21:53:00 +0300] "GET /BookLibrary/registration?language=ru_RU HTTP/1.1" 200 2614 http-bio-8080-exec-3 3
+0:0:0:0:0:0:0:1 - - [09/May/2016:21:53:01 +0300] "GET /BookLibrary/registration?language=en_EN HTTP/1.1" 200 2529 http-bio-8080-exec-4 19
+0:0:0:0:0:0:0:1 - - [09/May/2016:21:53:04 +0300] "POST /BookLibrary/registration HTTP/1.1" 200 4081 http-bio-8080-exec-5 10
+0:0:0:0:0:0:0:1 - - [09/May/2016:21:53:06 +0300] "GET /BookLibrary/registration?language=ru_RU HTTP/1.1" 200 2614 http-bio-8080-exec-6 8
+0:0:0:0:0:0:0:1 - - [09/May/2016:21:53:27 +0300] "POST /BookLibrary/registration HTTP/1.1" 200 4241 http-bio-8080-exec-7 8

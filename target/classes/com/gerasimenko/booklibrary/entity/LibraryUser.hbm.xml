@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.gerasimenko.booklibrary.entity.LibraryUser" table="library_user">
+        <meta attribute="class-description">
+            This class contains the book detail.
+        </meta>
+        <id name="idUser" type="int" column="ID_USER">
+            <generator class="identity"/>
+        </id>
+        <property name="nickUser" column="NICK_USER" type="string"/>
+        <property name="idTypeUser" column="ID_TYPE_USER" type="int"/>
+        <property name="passwordUser" column="PASSWORD_USER" type="string"/>
+        <property name="nameUser" column="NAME_USER" type="string"/>
+        <property name="surnameUser" column="SURNAME_USER" type="string"/>
+        <property name="phoneNumber" column="PHONE_NUMBER" type="string"/>
+        <property name="email" column="EMAIL" type="string"/>
+        <property name="booksAmount" column="BOOKS_AMOUNT" type="int"/>
+        <property name="isBanned" column="IS_BANNED" type="int"/>
+    </class>
+</hibernate-mapping>

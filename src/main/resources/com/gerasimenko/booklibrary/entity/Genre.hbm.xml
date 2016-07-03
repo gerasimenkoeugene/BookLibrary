@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.gerasimenko.booklibrary.entity.Genre" table="book_genre">
+        <meta attribute="class-description">
+            This class contains the genre detail.
+        </meta>
+        <id name="idGenre" type="int" column="ID_GENRE">
+            <generator class="identity"/>
+        </id>
+        <property name="genreName" column="NAME_GENRE" type="string"/>
+    </class>
+</hibernate-mapping>

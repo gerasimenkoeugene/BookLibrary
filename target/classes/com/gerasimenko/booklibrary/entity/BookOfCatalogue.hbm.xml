@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.gerasimenko.booklibrary.entity.BookOfCatalogue" table="book_catalogue">
+        <meta attribute="class-description">
+            This class contains the book detail.
+        </meta>
+        <id name="idBook" type="int" column="ID_BOOK">
+            <generator class="identity"/>
+        </id>
+        <property name="bookName" column="BOOK_NAME" type="string"/>
+        <property name="authorName" column="AUTHOR_NAME" type="string"/>
+        <property name="bookDescription" column="BOOK_DESCRIPTION" type="string"/>
+        <property name="bookPages" column="BOOK_PAGES" type="int"/>
+        <property name="isBooked" column="IS_BOOKED" type="int"/>
+        <many-to-one name="genre" column="id_genre" class="com.gerasimenko.booklibrary.entity.Genre" cascade="all"/>
+
+    </class>
+</hibernate-mapping>
